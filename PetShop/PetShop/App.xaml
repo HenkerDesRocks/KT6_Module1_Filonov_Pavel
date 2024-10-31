@@ -10,6 +10,11 @@
             <Setter Property="FontSize" Value="15" ></Setter>
         </Style>
 
+        <Style TargetType="RadioButton">
+            <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
+            <Setter Property="FontSize" Value="15" ></Setter>
+        </Style>
+
 
         <Style TargetType="Button">
             <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>

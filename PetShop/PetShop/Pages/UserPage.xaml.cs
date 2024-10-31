@@ -13,19 +13,32 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace PetShop
+namespace PetShop.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для UserPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class UserPage : Page
     {
-
-        public MainWindow()
+        public UserPage()
         {
             InitializeComponent();
-            Classes.Manager.MainFrame = MainFrame;
+        }
+
+        private void SortUp_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void SortDown_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BackBtn_Click(object sender, RoutedEventArgs e)
+        {
             Classes.Manager.MainFrame.Navigate(new Pages.Authorization());
+            return;
         }
     }
 }

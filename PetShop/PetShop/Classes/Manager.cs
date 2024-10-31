@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
 
-namespace PetShop.Pages
+namespace PetShop.Classes
 {
     class Manager
     {

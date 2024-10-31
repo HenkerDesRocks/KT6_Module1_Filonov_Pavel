@@ -16,8 +16,8 @@
             <TextBox x:Name="Login" Margin=" 0 10 0 0 "></TextBox>
             <TextBlock Text="Пароль" Width="120" Margin=" 0 10 0 0 "></TextBlock>
             <PasswordBox x:Name="Password" Margin=" 0 10 0 0 "></PasswordBox>
-            <Button Content="Вход" Width="120" Margin=" 0 10 0 0 "></Button>
-            <Button Content="Войти как гость" Width="120" Margin=" 0 10 0 0 "></Button>
+            <Button x:Name ="LoginBtn" Content="Вход" Width="120" Margin=" 0 10 0 0 " Click="LoginBtn_Click"></Button>
+            <Button x:Name="GuestBtn" Content="Войти как гость" Width="120" Margin=" 0 10 0 0 " Click="GuestBtn_Click"></Button>
         </StackPanel>
     </Grid>
 </Page>

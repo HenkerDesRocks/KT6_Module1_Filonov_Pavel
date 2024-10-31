@@ -13,3 +13,16 @@ C:\Users\comcuru\Desktop\KT6_Module1_Filonov_Pavel\PetShop\PetShop\obj\Debug\Pet
 C:\Users\comcuru\Desktop\KT6_Module1_Filonov_Pavel\PetShop\PetShop\obj\Debug\PetShop.csproj.CoreCompileInputs.cache
 C:\Users\comcuru\Desktop\KT6_Module1_Filonov_Pavel\PetShop\PetShop\obj\Debug\PetShop.exe
 C:\Users\comcuru\Desktop\KT6_Module1_Filonov_Pavel\PetShop\PetShop\obj\Debug\PetShop.pdb
+C:\Users\comcuru\Desktop\KT6_Module1_Filonov_Pavel\PetShop\PetShop\obj\Debug\Pages\AdminLKPage.g.cs
+C:\Users\comcuru\Desktop\KT6_Module1_Filonov_Pavel\PetShop\PetShop\obj\Debug\Pages\Authorization.g.cs
+C:\Users\comcuru\Desktop\KT6_Module1_Filonov_Pavel\PetShop\PetShop\obj\Debug\Pages\GuestPage.g.cs
+C:\Users\comcuru\Desktop\KT6_Module1_Filonov_Pavel\PetShop\PetShop\obj\Debug\Pages\AdminLKPage.baml
+C:\Users\comcuru\Desktop\KT6_Module1_Filonov_Pavel\PetShop\PetShop\obj\Debug\Pages\Authorization.baml
+C:\Users\comcuru\Desktop\KT6_Module1_Filonov_Pavel\PetShop\PetShop\obj\Debug\Pages\GuestPage.baml
+C:\Users\comcuru\Desktop\KT6_Module1_Filonov_Pavel\PetShop\PetShop\obj\Debug\Pages\UserPage.g.cs
+C:\Users\comcuru\Desktop\KT6_Module1_Filonov_Pavel\PetShop\PetShop\obj\Debug\Pages\UserPage.baml
+C:\Users\comcuru\Desktop\KT6_Module1_Filonov_Pavel\PetShop\PetShop\obj\Debug\Pages\AddPage.g.cs
+C:\Users\comcuru\Desktop\KT6_Module1_Filonov_Pavel\PetShop\PetShop\obj\Debug\Pages\EditPage.g.cs
+C:\Users\comcuru\Desktop\KT6_Module1_Filonov_Pavel\PetShop\PetShop\obj\Debug\App.baml
+C:\Users\comcuru\Desktop\KT6_Module1_Filonov_Pavel\PetShop\PetShop\obj\Debug\Pages\AddPage.baml
+C:\Users\comcuru\Desktop\KT6_Module1_Filonov_Pavel\PetShop\PetShop\obj\Debug\Pages\EditPage.baml

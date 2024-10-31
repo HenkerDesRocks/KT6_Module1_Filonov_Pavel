@@ -24,5 +24,21 @@ namespace PetShop.Pages
         {
             InitializeComponent();
         }
+
+
+        private void LoginBtn_Click(object sender, RoutedEventArgs e)
+        {
+            
+            Classes.Manager.MainFrame.Navigate(new Pages.UserPage());
+            return;
+
+
+        }
+
+        private void GuestBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Classes.Manager.MainFrame.Navigate(new Pages.GuestPage());
+            return;
+        }
     }
 }

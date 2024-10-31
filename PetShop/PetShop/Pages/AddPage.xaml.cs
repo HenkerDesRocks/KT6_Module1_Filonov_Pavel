@@ -16,13 +16,25 @@ using System.Windows.Shapes;
 namespace PetShop.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для AddEditPage.xaml
+    /// Логика взаимодействия для AddPage.xaml
     /// </summary>
-    public partial class AddEditPage : Page
+    public partial class AddPage : Page
     {
-        public AddEditPage()
+        public AddPage()
         {
             InitializeComponent();
+        }
+
+        private void AddBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BackBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Classes.Manager.MainFrame.Navigate(new Pages.AdminLKPage());
+            return;
+
         }
     }
 }

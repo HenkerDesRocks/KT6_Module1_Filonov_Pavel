@@ -24,5 +24,33 @@ namespace PetShop.Pages
         {
             InitializeComponent();
         }
+
+        private void AddBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BackBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Classes.Manager.MainFrame.Navigate(new Pages.Authorization());
+            return;
+        }
+
+        private void Edit_Click(object sender, RoutedEventArgs e)
+        {
+            Classes.Manager.MainFrame.Navigate(new Pages.EditPage());
+            return;
+        }
+
+        private void Delete_Click(object sender, RoutedEventArgs e)
+        {
+            Classes.Manager.MainFrame.Navigate(new Pages.AddPage());
+            return;
+        }
+
+        private void SortUp_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
