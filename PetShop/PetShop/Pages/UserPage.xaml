@@ -15,36 +15,39 @@
             <RowDefinition Height="70"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
-            <TextBlock Text="15/37" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="220 0 0 0 "></TextBlock>
+            <TextBlock Text="15/37" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="250 0 0 0 "></TextBlock>
             <RadioButton Content="Сортировка по возрастанию" x:Name="SortUp" Checked="SortUp_Checked" Margin="10 15 0 5"></RadioButton>
             <RadioButton Content="Сортировка по убыванию" x:Name="SortDown" Checked="SortDown_Checked" Margin="10 40 0 5"></RadioButton>
             <ComboBox x:Name="ManufactureList" Width="220" Height="30" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0 0 20 0"></ComboBox>
         </Grid>
-        <Grid Grid.Row="1" Width="800" Height="200" Margin="0 20 0 20">
-            <Grid.ColumnDefinitions >
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <Grid Grid.Column="0">
-                
-                    <TextBlock></TextBlock>
-                
-            </Grid>
-
-            <Grid Grid.Column="1" VerticalAlignment="Center">
-
-                <StackPanel Margin="5 0 5 0">
-                    <TextBlock Text="name" Margin=" 0 5 0 0"></TextBlock>
-                    <TextBlock Text="Description" Margin=" 0 5 0 0" TextWrapping="Wrap"></TextBlock>
-                    <TextBlock Text="Manufac" Margin=" 0 5 0 0"></TextBlock>
-                    <TextBlock Text="Cost" Margin=" 0 5 0 0"></TextBlock>
-                </StackPanel>
-
-            </Grid>
-            <Grid Grid.Column="2" VerticalAlignment="Center">
-                <TextBlock Text="Quentity"></TextBlock>
-            </Grid>
+        <Grid Grid.Row="1">
+            <ListView x:Name="productList">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="300"></ColumnDefinition>
+                                <ColumnDefinition Width="450"></ColumnDefinition>
+                                <ColumnDefinition Width="250"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0" Height="200">
+                                <Image Source="/img/picture.png" />
+                            </Grid>
+                            <Grid Grid.Column="1">
+                                <StackPanel>
+                                    <TextBlock Text="" ></TextBlock>
+                                    <TextBlock Text=""></TextBlock>
+                                    <TextBlock Text=""></TextBlock>
+                                    <TextBlock Text=""></TextBlock>
+                                </StackPanel>
+                            </Grid>
+                            <Grid Grid.Column="2">
+                                <TextBlock Text=""></TextBlock>
+                            </Grid>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </Grid>
         <Grid Grid.Row="2">
             <Button x:Name="BackBtn" Click="BackBtn_Click" Content="Назад" Width="200" Height="50" HorizontalAlignment="Left" Margin="20 0 0 0"></Button>

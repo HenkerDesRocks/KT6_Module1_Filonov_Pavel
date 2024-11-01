@@ -23,6 +23,7 @@ namespace PetShop.Pages
         public UserPage()
         {
             InitializeComponent();
+            ///productList.ItemsSource = Data.PetShopEntities.GetContext().Product.ToList();
         }
 
         private void SortUp_Checked(object sender, RoutedEventArgs e)

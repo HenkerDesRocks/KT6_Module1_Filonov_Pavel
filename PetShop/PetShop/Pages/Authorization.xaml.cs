@@ -29,7 +29,7 @@ namespace PetShop.Pages
         private void LoginBtn_Click(object sender, RoutedEventArgs e)
         {
             
-            Classes.Manager.MainFrame.Navigate(new Pages.UserPage());
+            Classes.Manager.MainFrame.Navigate(new Pages.AdminLKPage());
             return;
 
 
